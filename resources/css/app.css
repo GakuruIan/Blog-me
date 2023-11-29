@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Pahawh+Hmong&family=Saira+Extra+Condensed:wght@200;300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --PrimaryFont:'Noto Sans Pahawh Hmong', sans-serif;
+    --SecondaryFont: 'Saira Extra Condensed', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--PrimaryFont);
+}
+
+body{
+    font-family: var(--SecondaryFont);
+    font-weight: 400;
+}
